@@ -35,6 +35,7 @@ from langchain.agents.agent_toolkits.vectorstore.toolkit import (
     VectorStoreToolkit,
 )
 from langchain.agents.agent_toolkits.zapier.toolkit import ZapierToolkit
+from langchain.agents.agent_toolkits.clinical_trials.base import create_clinical_trials_agent
 
 __all__ = [
     "create_json_agent",
@@ -64,4 +65,5 @@ __all__ = [
     "FileManagementToolkit",
     "PlayWrightBrowserToolkit",
     "AzureCognitiveServicesToolkit",
+    "create_clinical_trials_agent"
 ]
